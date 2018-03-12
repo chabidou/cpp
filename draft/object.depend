@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1520859386 source:/home/sebastien/workspace_cpp/object/main.cpp
+	<iostream>
+	"personnage.h"
+
+1520859419 /home/sebastien/workspace_cpp/object/personnage.h
+	<iostream>
+	<string>
+
+1520859373 source:/home/sebastien/workspace_cpp/object/personnage.cpp
+	"personnage.h"
+
+1520859386 source:/home/sebastien/workspace_cpp/cpp/draft/main.cpp
+	<iostream>
+	"personnage.h"
+
+1520859426 /home/sebastien/workspace_cpp/cpp/draft/personnage.h
+	<iostream>
+	<string>
+
+1520860458 source:/home/sebastien/workspace_cpp/cpp/draft/personnage.cpp
+	"personnage.h"
+
