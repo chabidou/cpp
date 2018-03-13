@@ -10,14 +10,23 @@
 1520859373 source:/home/sebastien/workspace_cpp/object/personnage.cpp
 	"personnage.h"
 
-1520859386 source:/home/sebastien/workspace_cpp/cpp/draft/main.cpp
+1520948471 source:/home/sebastien/workspace_cpp/cpp/draft/main.cpp
 	<iostream>
+	<string>
 	"personnage.h"
 
-1520859426 /home/sebastien/workspace_cpp/cpp/draft/personnage.h
+1520948872 /home/sebastien/workspace_cpp/cpp/draft/personnage.h
+	<iostream>
+	<string>
+	"arme.h"
+
+1520949148 source:/home/sebastien/workspace_cpp/cpp/draft/personnage.cpp
+	"personnage.h"
+
+1520947653 /home/sebastien/workspace_cpp/cpp/draft/arme.h
 	<iostream>
 	<string>
 
-1520860458 source:/home/sebastien/workspace_cpp/cpp/draft/personnage.cpp
-	"personnage.h"
+1520947693 source:/home/sebastien/workspace_cpp/cpp/draft/arme.cpp
+	"arme.h"
 
