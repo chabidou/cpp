@@ -10,10 +10,11 @@
 1520859373 source:/home/sebastien/workspace_cpp/object/personnage.cpp
 	"personnage.h"
 
-1520948471 source:/home/sebastien/workspace_cpp/cpp/draft/main.cpp
+1520952429 source:/home/sebastien/workspace_cpp/cpp/draft/main.cpp
 	<iostream>
 	<string>
 	"personnage.h"
+	"duree.h"
 
 1520948872 /home/sebastien/workspace_cpp/cpp/draft/personnage.h
 	<iostream>
@@ -29,4 +30,11 @@
 
 1520947693 source:/home/sebastien/workspace_cpp/cpp/draft/arme.cpp
 	"arme.h"
+
+1520952246 source:/home/sebastien/workspace_cpp/cpp/draft/duree.cpp
+	<iostream>
+	"duree.h"
+
+1520952446 /home/sebastien/workspace_cpp/cpp/draft/duree.h
+	<iostream>
 

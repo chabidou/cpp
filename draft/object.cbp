@@ -34,12 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="arme.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="arme.cpp" />
 		<Unit filename="arme.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="duree.cpp" />
+		<Unit filename="duree.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="personnage.cpp" />
 		<Unit filename="personnage.h" />

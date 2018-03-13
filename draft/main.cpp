@@ -1,12 +1,23 @@
 #include <iostream>
 #include <string>
+
 #include "personnage.h"
+#include "duree.h"
 
 using namespace std;
 
-
 int main()
 {
+    /* Exemple surcharge operator */
+    Duree duree1(0, 10, 28), duree2(0, 10, 27);
+    if (duree1 == duree2)
+        cout << "Les durees sont identiques" << endl;
+    else
+        cout << "Les durees sont differentes" << endl;
+
+    cout << duree1 << "et " << duree2 << endl << endl;
+
+
     // Création des personnages
     Personnage david("epee", 10), goliath("Epée aiguisée", 20);
 
