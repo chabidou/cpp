@@ -68,3 +68,9 @@ void Personnage::afficherEtat()
     cout << "Mana : " << m_mana << endl;
     m_arme.afficher();
 }
+
+//Personnage::Personnage(Personnage const& personnageACopier)
+//   : m_vie(personnageACopier.m_vie), m_mana(personnageACopier.m_mana), m_arme(0)
+//{
+//
+//}

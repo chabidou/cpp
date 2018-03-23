@@ -11,6 +11,8 @@ class Personnage
 
     Personnage();
     Personnage(std::string nomArme, int degatsArme);
+    // Constructeur de copie
+    Personnage(Personnage const& personnageACopier);
     ~Personnage();
     void recevoirDegats(int nbDegats);
     void attaquer(Personnage &cible);
