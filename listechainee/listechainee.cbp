@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../listechainee" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="../listechainee" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,6 +34,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="listeElement.cpp" />
+		<Unit filename="listeElement.h" />
+		<Unit filename="listeManager.cpp" />
+		<Unit filename="listeManager.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />

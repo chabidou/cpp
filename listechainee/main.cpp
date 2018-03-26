@@ -1,13 +1,18 @@
 #include <iostream>
+#include "listeManager.h"
 
 using namespace std;
 
 
 int main()
 {
+    const int DISPLAY_LISTE(1), ADD_ELEMENT(2), DELETE_ELEMENT(3);
+    listeManager maListe;
     int choixMenu(0);
+    int valueForElement;
 
     do {
+        cout << endl << "Bienvenue dans la gestion des listes chainées.." << endl;
         cout << "Que voulez vous faire ?" << endl;
         cout << "1. Voir le contenu de la liste" << endl;
         cout << "2. Ajouter un element" << endl;
@@ -18,11 +23,18 @@ int main()
         cout << endl << endl;
 
         switch (choixMenu) {
-            case 1:
+            case DISPLAY_LISTE:
+                maListe.affichageListe();
                 break;
-            case 2:
+            case ADD_ELEMENT:
+                cout << "Quelle valeur entier voulez vous ajouter ? ";
+                cin >> valueForElement;
+                maListe.addElement(valueForElement);
                 break;
-            case 3:
+            case DELETE_ELEMENT:
+                cout << "Quelle valeur voulez vous supprimer ? ";
+                cin >> valueForElement;
+                maListe.deleteElement(valueForElement);
                 break;
             case 4:
                 cout << "A plouch !" << endl;
