@@ -29,6 +29,11 @@ void Voiture::affiche() const
     cout << "Ceci est une voiture." << endl;
 }
 
+int Voiture::nbrRoues() const
+{
+    return 4;
+}
+
 Voiture::~Voiture()
 {}
 
@@ -43,6 +48,11 @@ Moto::Moto(int prix, double vitesseMax)
 void Moto::affiche() const
 {
     cout << "Ceci est une moto." << endl;
+}
+
+int Moto::nbrRoues() const
+{
+    return 2;
 }
 
 Moto::~Moto()
